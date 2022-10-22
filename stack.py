@@ -7,4 +7,9 @@ class Stack:
         self.lst.append(val)
 
     def pop(self):
-        return self.lst.pop()
+        if self.size > 0:
+            return self.lst.pop()
+        else:
+            return
+    def is_empty(self):
+        return self.size > 0
