@@ -5,3 +5,6 @@ class Stack:
 
     def push(self, val):
         self.lst.append(val)
+
+    def pop(self):
+        return self.lst.pop()
