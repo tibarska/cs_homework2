@@ -13,3 +13,7 @@ class Stack:
             return
     def is_empty(self):
         return self.size > 0
+
+
+if __name__ == '__main__':
+    st = Stack()
